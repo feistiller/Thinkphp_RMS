@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	<title>参加招聘会</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="__PUBLIC__/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="__PUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css">	
+</head>
+<body class="templatemo-bg-gray">
+	<h1 class="margin-bottom-15">参加招聘会</h1>
+	<div class="container">
+		<div class="col-md-12">			
+			<form class="form-horizontal templatemo-create-account templatemo-container" role="form" action="{:U(GROUP_NAME.'/Apply/add')}" method="post" enctype="multipart/form-data">
+				<div class="form-inner">
+					
+                    <div class="form-group">
+			  
+                      <div class="col-md-6">
+			            <label for="username" class="control-label">参与人员1：</label>
+			            <input type="text" class="form-control" id="username" placeholder="people" name="people1">
+			          </div>
+			         <div class="col-md-6">
+			            <label for="username" class="control-label">手机号码1：</label>
+			            <input type="text" class="form-control" id="username" placeholder="phone" name="phone1">
+			          </div>
+                    </div>            
+			        
+			        <div class="form-group">
+			          <div class="col-md-6">
+			            <label for="username" class="control-label">参与人员2：</label>
+			            <input type="text" class="form-control" id="username" placeholder="people" name="people2">
+			          </div>
+			         <div class="col-md-6">
+			            <label for="username" class="control-label">手机号码2：</label>
+			            <input type="text" class="form-control" id="username" placeholder="phone" name="phone2">
+			          </div>            
+			        </div>			
+			        <div class="form-group">
+			          <div class="col-md-6">		          	
+			            <label for="username" class="control-label">公司联系邮箱：</label>
+			            <input type="email" class="form-control" id="username" placeholder="" name="email">		            		            		            
+			          </div>
+                       <div class="col-md-6">		          	
+			            <label for="username" class="control-label">招聘简章：</label>
+			            <input type="file" class="form-control" id="username" placeholder="仅支持jpg，png,jpge格式的图片" name="file">		            		            		            
+			          </div> 
+			             <input type="hidden" name="timeid" value="{$timeid}" />    
+			        </div>
+			        
+			        
+			        <div class="form-group">
+			          <div class="col-md-12">
+			            <input type="submit" value="确认" class="btn btn-info">
+			           <p><a href="{:U(GROUP_NAME.'/Index/index')}">回到主页</a></p>
+			          </div>
+			        </div>	
+				</div>				    	
+		      </form>		      
+		</div>
+	</div>
+	
+</body>
+</html>

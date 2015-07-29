@@ -1,0 +1,196 @@
+[ 2014-12-08T22:24:49+08:00 ] 0.0.0.0 /jyb/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.055764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.107684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012367s ]
+
+[ 2014-12-08T22:24:50+08:00 ] 0.0.0.0 /jyb/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004220s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.133986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009132s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007876s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004607s ]
+
+[ 2014-12-08T22:25:00+08:00 ] 0.0.0.0 /jyb/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+
+[ 2014-12-08T22:25:00+08:00 ] 0.0.0.0 /jyb/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001994s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001928s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2014-12-08T22:25:04+08:00 ] 0.0.0.0 /jyb/index.php/Index/Register/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.088556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001724s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008221s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004641s ]
+
+[ 2014-12-08T22:25:45+08:00 ] 0.0.0.0 /jyb/index.php/Index/Register/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002771s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.018812s ]
+SQL: INSERT INTO `hd_user` (`username`,`password`,`cname`,`caddress`,`cnature`,`cindustry`,`chead`,`cphone`,`email`,`remark`,`class`) VALUES ('q@qq.com','123','123','123','中型','1111','111','11111','123@qq.com',1,1) [ RunTime:0.117128s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006728s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2014-12-08T22:25:46+08:00 ] 0.0.0.0 /jyb/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005841s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001663s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2014-12-08T22:25:57+08:00 ] 0.0.0.0 /jyb/index.php/Index/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.022256s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'q@qq.com' ) LIMIT 1   [ RunTime:0.002636s ]
+SQL: UPDATE `hd_user` SET `time`=1418048757,`ip`='0.0.0.0' WHERE ( `id` = 4 ) [ RunTime:0.021608s ]
+NOTIC: [8] Undefined index: logintime E:\PHP\jyb\APP\Modules\Index\Action\LoginAction.class.php 第 28 行.
+NOTIC: [8] Undefined index: loginip E:\PHP\jyb\APP\Modules\Index\Action\LoginAction.class.php 第 29 行.
+
+[ 2014-12-08T22:25:58+08:00 ] 0.0.0.0 /jyb/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005782s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002731s ]
+
+[ 2014-12-08T22:34:30+08:00 ] 0.0.0.0 /jyb/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001792s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003886s ]
+
+[ 2014-12-08T22:35:01+08:00 ] 0.0.0.0 /jyb/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005944s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.018163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.018657s ]
+
+[ 2014-12-08T22:35:08+08:00 ] 0.0.0.0 /jyb/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002270s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011444s ]
+

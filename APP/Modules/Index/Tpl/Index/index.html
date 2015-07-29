@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+        
+        <title>企业管理页面 </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- Google Web Font Embed -->
+        
+        <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/css/font-awesome.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/css/templatemo_main.css">
+    </head>
+    <body>
+        <div id="main-wrapper">
+            <!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="#/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center templatemo-logo margin-top-20">
+                <h1 class="templatemo-site-title">
+                    <a href="{:U(GROUP_NAME.'/Index/index')}"">企业管理</a>
+                </h1>
+                <h3 class="templatemo-site-title">
+                	欢迎您，{$_SESSION.username}
+                	by <span class="blue">南开大学滨海学院数字媒体</span><span class="green">2014</span></a>
+                     <li class="active"><a href="{:U(GROUP_NAME.'/Index/logout')}">退出系统<span class="badge"></span></a></li>
+                </h3>
+            </div>
+
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="__PUBLIC__/images/zoom-bg-1.jpg" id="menu-img" class="main-img inactive" alt="Zoom HTML5 Template by templatemo.com">
+                    <img src="__PUBLIC__/images/zoom-bg-2.jpg" id="products-img" class="inactive" alt="Product">
+                    <img src="__PUBLIC__/images/zoom-bg-3.jpg" id="services-img"  class="inactive" alt="Services">
+                    <img src="__PUBLIC__/images/zoom-bg-4.jpg" id="about-img" class="inactive" alt="About">
+                    <img src="__PUBLIC__/images/zoom-bg-5.jpg" id="contact-img" class="inactive" alt="Contact">
+                    <img src="__PUBLIC__/images/zoom-bg-6.jpg" id="company-intro-img" class="main-img inactive" alt="Company Intro">
+                    <img src="__PUBLIC__/images/zoom-bg-7.jpg" id="testimonials-img" class="main-img inactive" alt="Testimonials">
+                </div>
+            </div>
+            <div class="copyrights">Design by NankaiBinhai</a></div>
+
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 templatemo-content-wrapper">
+                    <div class="templatemo-content">
+                        
+                        <section id="menu-section" class="active">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-20">
+                                    <a href="#products" class="change-section">
+                                        <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色12.png);background-size:100% 100%;">
+                                        
+                                        
+                                            <i class="fa fa-cubes"></i>
+                                            <h2>招聘会申请</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-20">
+                                    <a href="#services" class="change-section">
+                                    
+                                       <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色2.png);background-size:100% 100%;">
+                                        
+                                            <i class="fa fa-laptop"></i>
+                                            <h2>宣讲会申请</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-20">
+                                    <a href="#about" class="change-section">
+                                        <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色3.png);background-size:100% 100%;">
+                                            <i class="fa fa-users"></i>
+                                            <h2>上传资料申请</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-20">
+                                    <a href="#contact" class="change-section">
+                                       <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色4.png);background-size:100% 100%;">
+                                            <i class="fa fa-envelope"></i>
+                                            <h2>参加最新招聘会</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-bottom-20">
+                                    <a href="#company-intro" class="change-section">
+                                        <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色5.png);background-size:200px 200px">
+                                            <h2>修改企业资料</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-bottom-20">
+                                    <a href="#testimonials" class="change-section">
+                                        <div class="black-bg btn-menu" style="background-image:url(__PUBLIC__/images/纯色6.png);background-size:200px 200px">
+                                            <h2>联系我们</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                              
+                            </div>
+                        </section><!-- /.menu-section -->    
+                        <section id="products-section" class="inactive">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
+                                        <h2>招聘会申请</h2>
+                                        	
+                                            <form action="{:U(GROUP_NAME.'/Index/ajob')}" method="post">
+
+                                                <div class="form-group">
+                             						<h2>输入您期望招聘会举行的最晚日期</h2><input type="date" id="contact_name" class="form-control" placeholder="Name"  name="over"/>
+                                                </div>
+                                                
+                         						
+                                                <button type="submit" class="btn btn-primary">确认提交</button><br>
+<h4>您输入的信息将作为我校举办招聘会的参考资料</h4>
+
+                                        </form> 
+                                            
+                                    </div>
+                                </div>
+                            </div><br>
+
+                            
+                            	
+                                    
+                                    <a href="{:U(GROUP_NAME.'/Index/index')}"class="pull-right">
+                                        <h2>回到主页</h2>
+                                    </a>
+                                 
+                                
+                            
+                        </section><!-- /.product-section -->    
+                        <section id="services-section" class="inactive">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
+                                         <h2>宣讲会申请</h2>
+                                        	
+                                            <form action="{:U(GROUP_NAME.'/Index/ameet')}" method="post">
+
+                                                <div class="form-group">
+                             						<h2>输入您期望宣讲会举行的日期</h2><input type="date" id="contact_name" class="form-control" placeholder="Name"  name="atime"/>
+                                                </div>
+                                                
+                         						
+                                                <button type="submit" class="btn btn-primary">确认提交</button><br>
+<h4>您输入的信息将作为我校举办招聘会的参考资料</h4>
+
+                                        </form> 
+                                            
+                                    </div>
+                                </div>
+                            </div><br>
+
+                            
+                            	
+                                    
+                                    <a href="{:U(GROUP_NAME.'/Index/index')}"class="pull-right">
+                                        <h2>回到主页</h2>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                               
+                              
+                   
+                        </section><!-- /.services-section -->    
+                        <section id="about-section" class="inactive">
+                             <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
+                                         <h2>上传资料申请</h2>
+                                        	
+                                            <form action="{:U(GROUP_NAME.'/Index/aweb')}" method="post">
+
+                                                <div class="form-group">
+                             						<h2>输入您期望招聘的岗位</h2><input type="text" id="contact_name" class="form-control" placeholder="岗位"  name="worker"/>
+                                                    <h2>输入您招聘的岗位人数</h2><input type="text" id="contact_name" class="form-control" placeholder="人数（数字无需单位）"  name="num"/>
+                                                    
+                                                     <h2>输入您招聘的电话号码</h2><input type="text" id="contact_name" class="form-control" placeholder="电话"  name="phone"/>
+                                                     <h2>输入您招聘的邮箱</h2><input type="email" id="contact_name" class="form-control" placeholder="邮箱"  name="email"/>
+                                                </div>
+                                                
+                         						
+                                                <button type="submit" class="btn btn-primary">确认提交</button>
+                                                <a href="{:U(GROUP_NAME.'/Index/index')}" class="pull-right">
+                                        <h2>回到主页</h2><br>
+
+                                    </a>
+
+
+                                        </form> 
+                                           
+
+                                    </div>
+                                </div>
+                            </div><br>
+
+                            
+                                    </div>
+<br>
+                                  
+                                </div>
+                            </div>
+
+                        </section><!-- /.about-section -->    
+                        <section id="contact-section" class="inactive">
+                           
+                           <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
+                                   
+                                    <h2><if condition="($_SESSION['class'] eq 0)"> <a href="">请等待管理员审核权限</a>
+													<elseif condition="($_SESSION['class'] eq 1)"/><a href="{:U(GROUP_NAME.'/Apply/index')}">查看最近的招聘会</a>
+                                                    <elseif condition="($_SESSION['class'] eq 2)"/>您已填写资料，请耐心等待确认电话
+                                                     <elseif condition="($_SESSION['class'] eq 3)"/><a href="{:U(GROUP_NAME.'/Return/index')}">您已参加招聘会，请填写反馈表</a>
+                                                     
+                                                    <else /> 
+									</if>
+									</h2>
+                                         
+                            <a href="{:U(GROUP_NAME.'/Index/index')}" class="pull-right">
+                                        <h2>回到主页</h2>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           
+                           
+                           
+                           
+                        </section><!-- /.contact-section -->    
+                        <section id="company-intro-section" class="inactive">
+                            
+                            
+                              <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
+                                         <h2>更改用户资料</h2>
+                                        	<h2>您的用户名：{$_SESSION['username']}</h2>
+                                            <form action="{:U(GROUP_NAME.'/Index/change')}" method="post" enctype="multipart/form-data">
+
+                                                <div class="form-group">
+                             						<h2>您想更改的密码：</h2><input type="password" id="contact_name" class="form-control" placeholder="password"  name="password"/>
+                                                    <h2>重新输入密码：</h2><input type="password" id="contact_name" class="form-control" placeholder="password"  name="password2"/>
+                                                    
+                                                     <h2>您需要重新上传的资质：</h2><input type="file" id="contact_name" class="form-control" placeholder="资质"  name="img"/>
+                                                   
+                                                </div>
+                                                
+                         						
+                                                <button type="submit" class="btn btn-primary">确认提交</button><br>
+                                            <a href="{:U(GROUP_NAME.'/Index/index')}" class="pull-right">
+                                        <h2>回到主页</h2>
+                                    </a>
+                                        </form> 
+                                            <br>
+
+                                    </div>
+                                </div>
+                            </div><br>
+
+                            
+                                    </div>
+                                </div>
+                            </div><br>
+<br>
+
+                            
+                            
+                            
+                            
+                            
+                            
+                        </section><!-- /.company-intor-section -->    
+                        <section id="testimonials-section" class="inactive">
+                            <div class="row">
+                                <div class="black-bg col-sm-12 col-md-12 col-lg-12">
+                                    
+                                    <h2 class="text-center">联系我们</h2>
+                                    <div class="col-sm-12 col-md-12">
+                                        <h2>本系统仅适用于天津南开大学滨海学院就业办公室，招聘会申请与管理用途，其中涉及到的企业隐私内容，我们将严格进行保密，数据仅供本校毕业生使用。<br>
+如果您在登陆过程中产生任何疑问请联系我们学校就业办公室。<br><br>
+
+电话：63304810</h2><a href="{:U(GROUP_NAME.'/Index/index')}" class="pull-right">
+                                        <h2>回到主页</h2><br>
+
+                                    </a><br><br><br>
+<br>
+
+<br>
+
+<br>
+                                    </div>
+
+
+                                </div>
+
+                            </div><br>
+<br>
+                            
+                        </section><!-- /.company-intor-section -->    
+
+                        
+                    </div><!-- /.templatemo-content -->  
+                </div><!-- /.templatemo-content-wrapper --> 
+            </div><!-- /.row --> 
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+                    <p class="footer-text">Copyright &copy; 2014 <a href="" target="_blank" title="">南开大学滨海学院招聘会</a></p>
+                </div><!-- /.footer --> 
+            </div>
+
+		</div><!-- /#main-wrapper -->
+        
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- /#preloader -->
+        
+        <script src="__PUBLIC__/js/jquery.min.js"></script>
+        <script src="__PUBLIC__/js/jquery-ui.min.js"></script>
+        <script src="__PUBLIC__/js/jquery.backstretch.min.js"></script>
+        <script src="__PUBLIC__/js/templatemo_script.js"></script>
+
+    </body> 
+</html>
